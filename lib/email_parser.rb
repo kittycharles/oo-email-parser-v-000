@@ -14,3 +14,6 @@ class EmailParser
     emails.split.collect { |address| address.split(',')}.flatten.uniq
   end
 end
+
+richard_email = EmailParser.new("richard@richard.com," "z@z.com," "cat@kitty.com")
+richard_email.parse
