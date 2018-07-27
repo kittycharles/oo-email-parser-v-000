@@ -16,4 +16,7 @@ class EmailParser
 end
 
 richard_email = EmailParser.new("richard@richard.com," "z@z.com," "cat@kitty.com")
+puts 
+binding.pry
 richard_email.parse
+
