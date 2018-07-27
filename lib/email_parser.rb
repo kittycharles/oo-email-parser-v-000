@@ -16,4 +16,4 @@ class EmailParser
 end
 
 richard_email = EmailParser.new("richard@richard.com," "z@z.com," "cat@kitty.com")
-puts richard_email.parse
+richard_email.parse
